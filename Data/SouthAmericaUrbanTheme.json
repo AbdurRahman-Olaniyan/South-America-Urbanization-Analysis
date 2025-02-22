@@ -1,0 +1,33 @@
+{
+    "name": "SouthAmericaUrbanTheme",
+    "dataColors": [
+        "#80C4C4",  // Light Teal (default for others, first in chart)
+        "#4D4D4D",  // Dark Gray (Brazil & Chile)
+        "#6684CC",  // Slate Blue (general data)
+        "#884488"   // Plum (negative trends)
+    ],
+    "background": "#D9D9D9",      // Report background
+    "foreground": "#2F2F2F",      // Text
+    "tableAccent": "#FFFFFF",     // Section backgrounds
+    "visualStyles": {
+        "*": {
+            "*": {
+                "background": [{ "color": { "solid": { "color": "#FFFFFF" } } }],
+                "title": [
+                    { "color": { "solid": { "color": "#2F2F2F" } } },
+                    { "backgroundColor": { "solid": { "color": "#4D4D4D" } } }
+                ],
+                "card": [
+                    { "backgroundColor": { "solid": { "color": "#4D4D4D" } } },
+                    { "fontColor": { "solid": { "color": "#FFFFFF" } } }
+                ]
+            }
+        },
+        "card": {
+            "*": {
+                "background": [{ "color": { "solid": { "color": "#4D4D4D" } } }],
+                "text": [{ "color": { "solid": { "color": "#FFFFFF" } } }]
+            }
+        }
+    }
+}
